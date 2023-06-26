@@ -1,0 +1,47 @@
+package project1;
+
+public class Greaterno {
+	public static void main(String args[])
+	{
+		int a=10;
+		int b=20;
+		int c=30;
+		int d=40;
+		if(a>b)
+		{
+			if(a>c)
+			{
+				if(a>d)
+				{
+					System.out.println("largest no is"+a);
+				}
+				else
+				{
+					System.out.println("largest no is"+d);
+				}
+			}
+		}
+		else if(b>c)
+		{
+			if(b>d)
+			{
+				System.out.println("largest no is"+b);
+			}
+			else
+			{
+				System.out.println("largest no is"+d);
+			}
+	}
+		else if(c>d)
+		{
+			System.out.println("largest no is"+c);
+		}
+		else
+		{
+			System.out.println("largest no is"+d);
+		}
+	
+		
+	}
+
+}
