@@ -1,0 +1,27 @@
+package project1;
+
+public class Palindrome {
+	public static void main(String args[])
+	{
+		int n=121;
+		int  n1=0;
+		int rev=0;
+		int p=n;
+		while(n>0)
+		{
+			n1=n%10;
+			rev=(rev*10)+n1;
+			n=n/10;
+		}
+		System.out.println(rev);
+		if(rev==p)
+		{
+			System.out.println("Palindrome");
+		}
+		else
+		{
+			System.out.println("Not a palindrome");
+		}
+	}
+
+}
