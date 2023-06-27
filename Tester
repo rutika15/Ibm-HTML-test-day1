@@ -1,0 +1,16 @@
+package project3;
+
+public class Tester {
+	public static void main(String args[])
+	{
+		Student s=new StreamedStudent();
+		s.setId("1");
+		s.setName("rutika");
+		s.setSal("300");
+		s.getId();
+		s.getSal();
+		s.getStream();
+		s.getName();
+	}
+
+}
