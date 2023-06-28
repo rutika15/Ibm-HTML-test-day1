@@ -1,0 +1,10 @@
+package com.example;
+
+public class Que3 {
+	public static void main(String args[])
+	{
+		Shape s=Shape.Circle;
+		System.out.println("Ballon has Shape: "+s);
+	}
+
+}
