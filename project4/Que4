@@ -1,0 +1,13 @@
+package com.example;
+
+public class Que4 {
+	public static void main(String args[])
+	{
+		
+		for(Direction d:Direction.values())
+		{
+			System.out.println("All Four Directions are: "+d);
+		}
+		
+	}
+}
