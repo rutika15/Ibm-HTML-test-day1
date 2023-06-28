@@ -1,0 +1,23 @@
+package com.example;
+
+public class Que2 {
+//	
+//	public String name;
+//	public Que2(Weekend w)
+//	{
+//		this.name=w;
+//	}
+//	
+	public static void main(String args[])
+	{
+		
+		Weekend w=Weekend.Saturday;
+		if(w==Weekend.Saturday || w==Weekend.Sunday)
+		{
+			System.out.println("WEEKEND!!");
+		}
+		
+		
+	}
+
+}
