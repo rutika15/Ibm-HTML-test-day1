@@ -1,0 +1,8 @@
+package com.example;
+
+public enum Shape {
+	Circle,
+	Rectangke,
+	Square
+
+}
