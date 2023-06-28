@@ -1,0 +1,15 @@
+//
+package com.example;
+
+public class Que1 {
+ 
+	public static void main(String args[])
+	{
+		
+		for(Day_Of_Week d:Day_Of_Week.values())
+		{
+			System.out.println("All seven days are: "+d);
+		}
+		
+	}
+}
