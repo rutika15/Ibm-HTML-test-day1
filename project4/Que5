@@ -1,0 +1,10 @@
+package com.example;
+
+public class Que5 {
+	public static void main(String args[])
+	{
+		Years y=Years.june;
+		System.out.println("My Birthday Month is:"+y);
+	}
+
+}
